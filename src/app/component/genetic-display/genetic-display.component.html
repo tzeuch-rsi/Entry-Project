@@ -1,0 +1,16 @@
+<h2>Genetic Display</h2>
+<div class = "table-responsive">
+    <table class="table table-condensed table-hover table-bordered table-striped">
+        <tr>
+            <th>ID</th>
+            <th>Case ID</th>
+            <th>Reference</th>
+        </tr>
+        <tr *ngFor="let case of data">
+            <td>{{case.id}}</td>
+            <td>{{case.case_id}}</td>
+            <td>{{case.reference}}</td>
+        </tr>
+
+    </table>
+</div>
